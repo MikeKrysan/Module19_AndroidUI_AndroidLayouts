@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="#FF0000"
+    android:translationX="50dp"
+    android:translationY="50dp"
+    android:rotation="45"
+    android:scaleX="1.5"
+    android:scaleY="1.5" />
