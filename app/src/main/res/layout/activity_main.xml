@@ -1,11 +1,1126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/root"
-    android:layout_width="40dp"
-    android:layout_height="40dp"
-    android:background="#FF0000"
-    android:translationX="50dp"
-    android:translationY="50dp"
-    android:rotation="45"
-    android:scaleX="1.5"
-    android:scaleY="1.5" />
+
+<!--Ромб-->
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent">-->
+<!--    <FrameLayout android:layout_height="40dp"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:id="@+id/root"-->
+<!--        android:background="#FF0000"-->
+<!--        android:translationX="50dp"-->
+<!--        android:translationY="50dp"-->
+<!--        android:rotation="45"-->
+<!--        android:scaleX="1.5"-->
+<!--        android:scaleY="1.5"/>-->
+<!--    </FrameLayout>-->
+
+<!--    FrameLayout-->
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/root"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+
+<!--    Три квадрата: один повернутый в центре слева, один по центру экрана, один внизу справа-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@color/design_default_color_primary_variant"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:background="#00FF00"-->
+<!--        android:rotation="45"-->
+<!--        android:translationX="30dp"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_gravity="end|bottom"-->
+<!--        android:background="#FF0000"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        />-->
+
+<!--</FrameLayout>-->
+
+<!--    Три квадрата сверху слева, наложенные один на другой, при помощи framelayout-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="320dp"-->
+<!--        android:layout_height="320dp"-->
+<!--        android:background="@color/design_default_color_primary"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:background="#734046"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="#D6C318"-->
+<!--        />-->
+
+<!--</FrameLayout>-->
+
+
+<!--    Квадратики по углам экрана-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="#00FF00"-->
+<!--        android:layout_gravity="top|right"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="#00FF00"-->
+<!--        android:layout_gravity="top|left"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="#00FF00"-->
+<!--        android:layout_gravity="bottom|right"-->
+<!--        />-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="#00FF00"-->
+<!--        android:layout_gravity="bottom|left"-->
+<!--        />-->
+
+<!--    </FrameLayout>-->
+
+<!--</FrameLayout>-->
+
+<!--    Примитивная менюшка-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:padding="12dp">-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:background="#773E3E"-->
+<!--        />-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="#2196F3">-->
+
+<!--            <FrameLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="#5A5316"-->
+<!--            />-->
+
+<!--            <FrameLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:background="#5A5316"-->
+<!--            />-->
+<!--        </FrameLayout>-->
+
+<!--    </FrameLayout>-->
+
+
+<!--</FrameLayout>-->
+
+
+
+<!--    LinearLayout-->
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:id="@+id/root"-->
+<!--    >-->
+
+<!--        три контейнера расположенных горизонтально-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="100">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="33"-->
+<!--            android:background="#0000FF"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="33"-->
+<!--            android:background="#0000F9"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="33"-->
+<!--            android:background="#0000FF"/>-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+<!--    Три контейнера, расположенных вертикально слева экрана-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:weightSum="100">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="33"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:background="#FF0023"-->
+<!--            android:layout_margin="5dp"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="33"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:background="#FF0023"-->
+<!--            android:layout_margin="5dp"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="33"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:background="#FF0023"-->
+<!--            android:layout_margin="5dp"/>-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+
+<!--    Три контейнера, расположенных горизонтально в центре экрана, идущих один за другим, шириной на весь экран, а высотой 50dp-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:orientation="horizontal" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:orientation="horizontal" />-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+
+<!--    Таблица 3х3-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+
+<!--    Примитивная менюшка, создаваемая с помощью LinearLayout-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:padding="12dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:background="#773E3E"-->
+<!--                />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:background="#2196F3"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:background="#5A5316"-->
+<!--                />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="#5A5316"-->
+<!--                />-->
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+
+
+
+<!--RelativeLayout-->
+
+<!--Три элемента: один сверху по центру, и два под ним-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:id="@+id/root">-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/cont1"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="#7C4DFF"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/cont2"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@id/cont1"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:background="#69F0AE"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/cont3"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@id/cont1"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:background="#FFD740"/>-->
+
+<!--</RelativeLayout>-->
+
+<!--Приложение с нижним меню навигации-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:id="@+id/root">-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/topBar"-->
+<!--        android:background="#FF4420"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/topBar"-->
+<!--        android:layout_above="@id/bottomBar"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:background="#00FF42"-->
+<!--        />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/bottomBar"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#0032ff"-->
+<!--        >-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/cont4"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:background="#48755A"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/cont5"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:background="#FF0025"/>-->
+<!--    </RelativeLayout>-->
+
+<!--</RelativeLayout>-->
+
+<!--Расположение контейнеров по диагонали с верхнего левого угла к правому нижнему углу экрана-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:id="@+id/root">-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/first_element"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:background="#FF0000"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/second_element"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:background="#391B6E"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:layout_below="@id/first_element"-->
+<!--        android:layout_toEndOf="@+id/first_element"-->
+<!--        />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/third_element"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:background="#2196F3"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:layout_below="@id/second_element"-->
+<!--        android:layout_toEndOf="@+id/second_element"-->
+<!--        />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/fourth_element"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:background="#D5C010"-->
+<!--        android:layout_margin="1dp"-->
+<!--        android:layout_below="@id/third_element"-->
+<!--        android:layout_toEndOf="@+id/third_element"-->
+<!--        />-->
+
+<!--</RelativeLayout>-->
+
+<!--Вложенный RelativeLayout-->
+
+<!--    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".MainActivity"-->
+<!--        android:id="@+id/root">-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/dialog_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#B3B3FFFF">-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/dialog"-->
+<!--            android:layout_width="280dp"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:background="#B35E0BD5" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--</RelativeLayout>-->
+
+<!--Элемент списка с иконкой, наименованием и описанием, сверстанный только при помощи RelativeLayout-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:id="@+id/root">-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/menu"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="#889A4455">-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/icon"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="#0040FF"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toEndOf="@id/icon"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="#FF3C00">-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="#4CAF50"/>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/description"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_below="@id/name"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="#00FF00"/>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </RelativeLayout>-->
+
+<!--</RelativeLayout>-->
+
+
+<!--ConstraintLayout-->
+
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <View-->
+<!--        android:id="@+id/view1"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="55dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constrantTop_toTopOf="parent"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/view2"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="50dp"-->
+<!--        app:layout_constraintStart_toEndOf="@id/view1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/view1"/>-->
+
+<!--    <View-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:id="@+id/view3"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/view2"-->
+<!--        app:layout_constraintStart_toStartOf="@id/view1"/>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--Как задавать ширину и высоту объектов через XML код-->
+<!--Fixed размер-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_centerInParent="true">-->
+
+<!--        <View-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        &lt;!&ndash;        Фиксированный размер для View имеет приоритет перед привязками, из-з чего View выходит за границы контейнера ConstraintLayout&ndash;&gt;-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    -->
+<!--</RelativeLayout>-->
+
+<!--Match Constraint размер-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_centerInParent="true">-->
+
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:layout_constraintWidth_default="spread"-->
+<!--            app:layout_constraintHeight_default="spread"-->
+
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"/>-->
+<!--&lt;!&ndash;        Атрибуты  constraintWidth_default и constrantHeight_default позволяют задать размеры как вычисляемые с помощью Constraint-ов. Так как размеры будут вычислены автоматически, то можно указать значение атрибутов ширины и высоты как 0dp&ndash;&gt;-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--</RelativeLayout>-->
+
+<!--Wrap Content размер-->
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_centerInParent="true">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:text="text text text text text text text text texttext text text text text texttext text text text text texttext text text text text texttext text text text text texttext text text text text texttext text text text text texttext text text text text texttext text text text text text"-->
+<!--            app:layout_constrainTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.54"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintWidth_default="wrap"-->
+<!--            app:layout_cpnstraintHeight_default="wrap" />-->
+
+<!--        Атрибуты layout_constraintWidth_default и layout_constraintHeight_default создают поведение Wrap Content для этого объекта-->
+<!--        -->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--</RelativeLayout>-->
+
+
+<!--GuideLine-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/guideline"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_begin="55dp" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    -->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--Chains-->
+
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <View-->
+<!--        android:id="@+id/view1"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/view2"-->
+<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view2"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/view3"-->
+<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/view1"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view3"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/view2"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--Barrier-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+<!--    -->
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/text1"-->
+<!--        app:layout_constraintWidth_default="wrap"-->
+<!--        android:text="text text text"-->
+<!--        android:textSize="23sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"/>-->
+<!--    -->
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/text2"-->
+<!--        app:layout_constraintWidth_default="wrap"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text1"-->
+<!--        android:text="text"-->
+<!--        android:textSize="23sp"/>-->
+<!--    -->
+<!--    <androidx.constraintlayout.widget.Barrier-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/barrier"-->
+<!--        app:barrierDirection="end"-->
+<!--        app:constraint_referenced_ids="text1,text2"/>-->
+<!--    -->
+<!--    <FrameLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintStart_toStartOf="@id/barrier"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+<!--    -->
+<!--    -->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--Простая менюшка, выполненная только при помощи ConstraintLayout-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/icon"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        />-->
+<!--    -->
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/text1"-->
+<!--        app:layout_constraintWidth_default="wrap"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/icon"-->
+<!--        app:layout_constraintStart_toEndOf="@id/icon"-->
+<!--        android:text="text text text"-->
+<!--        android:textSize="23sp"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/text2"-->
+<!--        app:layout_constraintWidth_default="wrap"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text1"-->
+<!--        android:text="text text"-->
+<!--        android:textSize="23sp"-->
+<!--        app:layout_constraintStart_toEndOf="@id/icon"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+<!--    -->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+<!--Избавтесь от всех вложенностей!-->
+
+<!--Изначальный код-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#7C4DFF"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/buttons"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_chainStyle="spread" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/buttons"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/box"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHeight_default="wrap"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/title"-->
+<!--        app:layout_constraintVertical_chainStyle="packed"-->
+<!--        app:layout_constraintWidth_default="wrap">-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:background="#FFD900" />-->
+
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="#FFD900" />-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="#FFD900" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/box"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="100"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHeight_default="wrap"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/buttons"-->
+<!--        app:layout_constraintVertical_chainStyle="packed">-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_weight="50"-->
+<!--            android:background="#69F0AE" />-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_weight="50"-->
+<!--            android:background="#69F0AE" />-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--Решение-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <FrameLayout-->
+<!--            android:id="@+id/title"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="#7C4DFF"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/top_barrier"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_chainStyle="spread" />-->
+
+<!--    <androidx.constraintlayout.widget.Barrier-->
+<!--        android:id="@+id/top_barrier"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:barrierDirection="top"-->
+<!--        app:constraint_referenced_ids="button1, button2, button3"/>-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:background="#FFD900"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/title"-->
+<!--        app:layout_constraintVertical_chainStyle="spread" />-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:background="#FFD900"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button3"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button1"-->
+<!--        app:layout_constraintVertical_chainStyle="spread" />-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:background="#FFD900"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/box1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button2"-->
+<!--        app:layout_constraintVertical_chainStyle="spread" />-->
+
+<!--    <androidx.constraintlayout.widget.Barrier-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bottom_barrier"-->
+<!--        app:barrierDirection="bottom"-->
+<!--        app:constraint_referenced_ids="button1, button2, button3"/>-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:id="@+id/box1"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:background="#69F0AE"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@id/box2"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bottom_barrier"-->
+<!--            app:layout_constraintVertical_chainStyle="spread"-->
+<!--            />-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:id="@+id/box2"-->
+<!--            android:layout_weight="50"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:background="#69F0AE"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@id/box1"-->
+<!--            app:layout_constraintTop_toTopOf="@id/box1"-->
+<!--            app:layout_constraintVertical_chainStyle="spread"/>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--ScrollView-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:background="#69F0AE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:background="#448AFF"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:background="#E040FB"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:background="#FFAB40" />
+
+    </LinearLayout>
+</ScrollView>
+
+<!--ScrolView практика-->
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:fillViewport="true"-->
+<!--    android:scrollbarSize="20dp">-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--    </LinearLayout>-->
+<!--</ScrollView>-->
+
+
+

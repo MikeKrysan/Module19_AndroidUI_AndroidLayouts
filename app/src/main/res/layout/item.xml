@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!--Ромб-->
+
+<!--FrameLayout: Три квадрата, Три квадрата, наложенные один на другой, 4 квадрата по углам-->
+
+<!--LinearLayout: Три контейнера, расположеных горизонтально, Три контейнера, расположенных вертикально слева экрана -->
+<!--LinearLayout: Три контейнера, расположенных горизонтально в центре экрана, идущих один за другим, шириной на весь экран-->
+<!--LinearLayout: Таблица 3х3-->
+<!--LinearLayout: Менюшка-->
+
+<!--RelativeLayout:Три контейнера, один по-центру сверху; два под ним-->
+<!--RelativeLayout: Приложение с нижним меню навигации-->
+<!--RelativeLayout: Расположение контейнеров по диагонали с верхнего левого угла к правому нижнему углу экрана-->
+<!--RelativeLayout: Вложенный RelativeLayout-->
+<!--RelativeLayout: Элемент списка с иконкой, наименованием и описанием, сверстанный только при помощи RelativeLayout-->
+
+<!--ConstraintLayout: -->
+
 <View xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <View>
-        <View/>
-        <View/>
-    </View>>
+android:layout_width="match_parent"
+android:layout_height="match_parent">
 </View>
+
+<!--ScrollView-->
+
+<!--<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="80dp"-->
+<!--    android:layout_marginTop="15dp"-->
+<!--    android:background="@color/design_default_color_primary">-->
+<!--</RelativeLayout>-->
